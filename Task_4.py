@@ -47,8 +47,6 @@ def FourthCycle():
 		except:
 			break
 
-
-
 FirstCycle()
 SecondCycle()
 ThirdCycle()
