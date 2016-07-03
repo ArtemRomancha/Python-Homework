@@ -28,4 +28,13 @@ def FirstCycle():
 	for r in sys.argv[1:]:
 		CalculateLn(r)
 
+def SecondCycle():
+	for i in range(1, len(sys.argv)):
+		CalculateLn(sys.argv[i])
+
 FirstCycle()
+SecondCycle()
+#ThirdCycle()
+#FourthCycle()
+
+
