@@ -32,9 +32,15 @@ def SecondCycle():
 	for i in range(1, len(sys.argv)):
 		CalculateLn(sys.argv[i])
 
+def ThirdCycle():
+	i = 1
+	while i < len(sys.argv):
+		CalculateLn(sys.argv[i])
+		i += 1
+
 FirstCycle()
 SecondCycle()
-#ThirdCycle()
+ThirdCycle()
 #FourthCycle()
 
 
